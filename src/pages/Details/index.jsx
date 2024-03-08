@@ -3,12 +3,15 @@ import { Container, Links } from "./styles";
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
+import { ButtonText } from "../../components/ButtonText";
 import { Tag } from "../../components/Tag";
 
 export function Details() {
   return (
     <Container>
       <Header />
+      <ButtonText title="Excluir nota" />
+      <ButtonText>asasasasas</ButtonText>
       <Section title="Links úteis">
         <Links>
           <li>
