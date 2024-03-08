@@ -56,7 +56,7 @@ export const Content = styled.div`
   background: blue;
 `;
 
-export const NewNote = styled.div`
+export const NewNote = styled.button`
   grid-area: newnote;
 
   background-color: ${({ theme }) => theme.COLORS.ORANGE};
@@ -68,6 +68,5 @@ export const NewNote = styled.div`
 
   svg {
     margin-right: 8px;
-    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `;

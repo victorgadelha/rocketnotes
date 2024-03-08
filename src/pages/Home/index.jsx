@@ -25,7 +25,7 @@ export function Home() {
         </li>
       </Menu>
       <Search>
-        <Input placeholder="Pesquisar pelo título" icon={FiSearch} />
+        <Input placeholder="Pesquisar pelo título" />
       </Search>
       <Content></Content>
       <NewNote>
