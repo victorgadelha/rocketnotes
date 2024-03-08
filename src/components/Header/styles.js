@@ -10,6 +10,9 @@ export const Container = styled.header`
   border-bottom-style: solid;
   border-bottom-color: space-between;
 
+  display: flex;
+  justify-content: space-between;
+
   padding: 0 80px;
 `;
 
@@ -35,8 +38,18 @@ export const Profile = styled.div`
     }
 
     strong {
-      font-size: 14px;
+      font-size: 18px;
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
+  }
+`;
+
+export const Logout = styled.button`
+  border: none;
+  background: none;
+
+  > svg {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    font-size: 36px;
   }
 `;
