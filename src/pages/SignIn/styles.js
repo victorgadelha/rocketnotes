@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import backgroundImg from "../../assets/background.jpg";
+
 export const Container = styled.div`
   height: 100vh;
   display: flex;
@@ -36,4 +38,10 @@ export const Form = styled.form`
     margin-top: 124px;
     color: ${({ theme }) => theme.COLORS.ORANGE};
   }
+`;
+
+export const BackGround = styled.div`
+  flex: 1;
+  background: url(${backgroundImg}) no-repeat center center;
+  background-size: cover;
 `;
